@@ -1,0 +1,83 @@
+@import 'fonts.css';
+
+.header{
+    padding: 17px 0;
+    background: var(--white);
+}
+
+
+
+/* Main start  */
+
+.main__designer{
+    padding: 100px 0;
+    background: var(--green);
+
+}
+.main__designer-title{
+    color: #171717;
+    font-size: 30px;
+    font-family: var(--mr500);
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    text-align: center;    
+}
+.main__designer-text{
+   font-family: var(--rb500);
+   color: #fefefe;
+   font-size: 17px;
+   line-height: 27px;
+   text-align: center;
+}
+
+.main__graphic-icons{
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background: rgba(60, 124, 88, 0.6);
+  transition: 500ms;
+  opacity: 0;
+}
+.main__graphic-icons:hover{
+    opacity: 1;
+}
+.main__graphic-image{
+    object-fit: cover;
+    display: inline-block;
+
+}
+
+
+
+
+/* Main end */
+
+
+
+/* Media start  */
+
+@media(max-width: 900px){
+    .main__graphic-block{
+        width: 50% !important;
+    }
+}
+@media(max-width:450px){
+    .main__graphic-block{
+        width: 100% !important;
+    }
+}
+@media(max-width:468px){
+    .main__designer-title{
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .main__designer-text{
+        font-size: 11px;
+        line-height: 22px;
+    }
+}
+ 
+
+/* Media end */

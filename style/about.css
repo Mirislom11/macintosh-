@@ -1,0 +1,135 @@
+@import 'fonts.css';
+
+/* Header start */
+
+.header{
+    background: var(--white);
+    padding: 18px 0;
+}
+
+
+/* Heaader end */
+
+
+
+/* Main start */
+
+.main__about{
+    padding: 116px 0 111px 0;
+    background: #323232;
+}
+.main__about-title{
+    font-size: 62px;
+    font-family: var(--mr500);
+    color: var(--white);
+    line-height: 43px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main__about-text{
+    font-size: 23px;
+    font-family: var(--ns);
+    color: var(--white);
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+.main__info{
+   
+    margin: 0;
+
+    background: #f5f5f5;
+}
+.main__info-img{
+display: block;
+object-fit: cover;
+width: 100%;
+}
+.main__info-title{
+    
+    color: var(--black__main2);
+    font-size: 30px;
+    font-family: var(--mr500);
+    line-height: 21px;
+    
+}
+.main__info-text{
+    font-family: var(--ns);
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 38px;
+    max-width: 445px;
+    width: 60%;
+    height: 135px;
+    overflow: auto;
+}
+
+.main__info-signature{
+    display: block;
+    object-fit: cover;
+    margin: 37px 0 0 0;
+}
+
+
+.main__need{
+    padding: 105px 0 100px 0;
+
+}
+.main__need-title{
+     font-size: 30px;
+    font-family: var(--mr500);
+    color: #1d1d1d;
+    line-height: 21px; 
+    text-align: center;
+}
+.main__need-text{
+    color: #787878;
+    font-family: var(--ns);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 41px;
+    text-align: center;
+}
+/* Main end  */
+
+
+
+/* Media start */
+ @media(max-width:940px){
+.main__info{
+    justify-content: center ;
+}
+.main__about-box1{
+    width: 100% !important;
+
+}
+.main__about-box2{
+    width: 70% !important;
+}
+.main__info-title{
+    margin-top: 20px;
+}
+.main__about-box2{
+    background: var(--grey);
+    border-radius: 5px;
+    margin-top: -50px;
+}
+.main__info-text{
+    color: var(--grey__light);
+}
+} 
+
+@media(max-width:487px){
+  .main__about-title{
+      font-size: 36px;
+      line-height: 36px;
+  }  
+  .main__about-text{
+      font-size: 13px;
+      line-height: 19px;
+  }
+}
+
+/* Media end */
